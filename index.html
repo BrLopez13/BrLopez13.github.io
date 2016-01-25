@@ -9,33 +9,39 @@
       background-repeat: repeat;
       background-attachment: fixed;
       font-family: "Georgia"; 
+      text-align: center;
       }
     #navbar {
-      color:white;
+      color: gold;
       border-style: solid;
-      border-width: 5px;
-      border-color: white;
+      border-width: 2px;
+      border-color: gold;
+      text-align: left;
+    }
+    #navbarlist {
+    display: table; 
+    margin: 15
+    auto;
     }
     .navcont {
-      color:white;
+      color: gold;
       font-family: "Georgia";
     }
     h1 {
-      color: white;
+      color: gold;
       font-family: "Georgia";
-      text-align: center;
       font-size: 35px;
     }
     h5 {
-      color: white;
-      text-align: center;
+      color: gold;
     }
+
   </style>
 </head>
 
 <body> 
     <div id="navbar">
-      <ul> 
+      <ul id="navbarlist" style="list-style-type: square"> 
         <li><a class="navcont" href="index.html">Home</a></li>
         <li><a class="navcont" href="http://scratchpad.io/Brian-Lopez-APS/Convention">About</a></li>
         <li><a class="navcont" href="index.html">Blog</a></li>
@@ -43,6 +49,10 @@
     </div>
     <h1>Brian Lopez</h1>
     <h5>An insight of me.</h5>
-    <hr>
+    <hr color="gold">
+    <div class="image">
+    <a href="./img/blog/blog1/blackenbridge.jpg"><img src="./img/blog/blog1/blackenbridge.jpg" alt="Black and White Golden Gate Bridge at Night" width="550px"></a>
+        <div>A black and white photo of the Golden Gate Bridge.</div>
+</div>
   	
 </body>
