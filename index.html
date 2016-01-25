@@ -9,10 +9,10 @@
       background-repeat: repeat;
       background-attachment: fixed;
       font-family: "Georgia"; 
+      color: gold;
       text-align: center;
       }
     #navbar {
-      color: gold;
       border-style: solid;
       border-width: 2px;
       border-color: gold;
@@ -25,18 +25,9 @@
     }
     .navcont {
       color: gold;
-      font-family: "Georgia";
     }
     h1 {
-      color: gold;
-      font-family: "Georgia";
       font-size: 35px;
-    }
-    h5 {
-      color: gold;
-    }
-    #bridgecaption {
-      color:white;
     }
   </style>
 </head>
@@ -45,16 +36,22 @@
     <div id="navbar">
       <ul id="navbarlist" style="list-style-type: square"> 
         <li><a class="navcont" href="index.html">Home</a></li>
-        <li><a class="navcont" href="http://scratchpad.io/Brian-Lopez-APS/Convention">About</a></li>
-        <li><a class="navcont" href="index.html">Blog</a></li>
+        <li><script type="text/javascript">
+          function About() {
+            alert("This certain part of the website isn't just done yet, please come back later!");
+          }
+          </script>
+          <a class="navcont" href="javascript:About();">About</a>
+          </li>
+        <li><a class="navcont" href="blog.html">Blog</a></li>
       </ul>
     </div>
     <h1>Brian Lopez</h1>
     <h5>An insight of me.</h5>
     <hr color="gold">
     <div class="image">
-    <a href="./img/blog/blog1/darkbridge.jpg"><img src="./img/blog/blog1/darkbridge.jpg" alt="Black and White Golden Gate Bridge at Night" width="550px"></a>
-        <div id="bridgecaption">A black and white photo of the Golden Gate Bridge.</div>
-</div>
-  	
+      <a href="./img/blog/home/darkbridge.jpg"><img src="./img/blog/home/darkbridge.jpg" alt="Black and White Golden Gate Bridge at Night" width="550px"></a>
+      <div id="bridgecaption">A black and white photo of the Golden Gate Bridge.</div>
+    </div>
+  	<hr color="gold">
 </body>
